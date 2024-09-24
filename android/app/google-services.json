@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "483247968191",
+    "project_id": "fetch-222d4",
+    "storage_bucket": "fetch-222d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483247968191:android:745d0c964a4bbec988db0a",
+        "android_client_info": {
+          "package_name": "com.example.panir_hisab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3ujFbsesdPGZIWTlHW24Iwsy3s6eGbjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483247968191:android:423e9759539cb13388db0a",
+        "android_client_info": {
+          "package_name": "com.fetch.ap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3ujFbsesdPGZIWTlHW24Iwsy3s6eGbjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483247968191:android:af0d4941c5a086eb88db0a",
+        "android_client_info": {
+          "package_name": "com.pani.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3ujFbsesdPGZIWTlHW24Iwsy3s6eGbjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
