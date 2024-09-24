@@ -19,32 +19,38 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.amber,
       appBar: AppBar(
-        backgroundColor: Colors.amber,title: const Text('User Info')),
+        backgroundColor: Colors.amber,title: const Text('তথ্য প্রদান করুন')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
           key: _formKey,
           child: Column(
             children: [
-              TextFormField(
-                controller: _nameController,
-                decoration: const InputDecoration(labelText: 'নাম'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter your name';
-                  }
-                  return null;
-                },
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextFormField(
+                  controller: _nameController,
+                  decoration: const InputDecoration(labelText: 'নাম'),
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Please enter your name';
+                    }
+                    return null;
+                  },
+                ),
               ),
-              TextFormField(
-                controller: _emailController,
-                decoration: const InputDecoration(labelText: 'পরিমান'),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter your email';
-                  }
-                  return null;
-                },
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextFormField(
+                  controller: _emailController,
+                  decoration: const InputDecoration(labelText: 'পরিমান'),
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Please enter your email';
+                    }
+                    return null;
+                  },
+                ),
               ),
               const SizedBox(height: 20),
               ElevatedButton(
@@ -56,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
     context,
     MaterialPageRoute(builder: (context) => const UserListScreen()),
   );
-              }, icon: const Icon(Icons.home))
+              }, icon: const Icon(Icons.home,size: 50,))
             ],
           ),
         ),
